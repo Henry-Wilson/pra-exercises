@@ -13,4 +13,4 @@ complexity will be handled for us in the ROS and AUVSI libraries. Aside from con
         src
             main.py - The main loop of the program. Needs includes and some completion.
         include
-            util.py - functions for filio, string parse, etc. May need some completion.
+            util.py - Functions for filio. Needs includes and some completion.
