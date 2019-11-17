@@ -1,5 +1,7 @@
 #This is a utilities function file.
 
+#You will want to skip the first line either here or in
+#main.py
 def read_as_string_list( file_name ):
 	"""
 	However one opens a file for READING in python,
