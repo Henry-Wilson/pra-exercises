@@ -19,8 +19,8 @@ def read_as_string_list( file_name ):
 	#Read this page for info:
 	#https://www.tutorialspoint.com/python/python_files_io.htm
 	
-	int MODE = 'r' #READ mode
-	int BUFFERING = 1
+	MODE = 'r' #READ mode
+	BUFFERING = 1
 	
 	the_file = open(file_name, MODE, BUFFERING)
 	the_list = []
