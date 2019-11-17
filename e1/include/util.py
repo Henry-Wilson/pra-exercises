@@ -57,7 +57,7 @@ def write_as_json( file_name_destination, compatible_object ):
 	"""
 	
 	#Open file for WRITE
-	the_file = open(file_name_destinaton, 'w', 1)
+	the_file = open(file_name_destination, 'w', 1)
 	#Dump JSON
 	json.dump(compatible_object, the_file)
 	return
