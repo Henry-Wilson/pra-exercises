@@ -4,16 +4,8 @@
 #main.py
 def read_as_string_list( file_name ):
 	"""
-	However one opens a file for READING in python,
-	this function should do that and return the open
-	file object. This may just be a wrapper of a
-	single line of code, but the point of this
-	exercise is not some arbitrary level of complexity.
-	
-	If this exercise insults your intelligence and you
-	have been doing fileio in python for months or
-	years, then I apologize. This is just where I felt
-	like starting.
+	This function is meant to return a list of all the lines in
+	a file. You will have to modify it.
 	"""
 	
 	#Read this page for info:
@@ -49,11 +41,9 @@ def write_as_json( file_name_destination, compatible_object ):
 	JSON format.
 	
 	You will need to include JSON libraries in this file
-	for this to work. Before you can do that, you will
-	need to install said libraries with pip3.
-
-	EDIT: No, you don't need to install the package. For
-	some odd reason, python3 supports JSON internally.
+	for this to work.
+	
+	You do not have to modify this function.
 	"""
 	
 	#Open file for WRITE
